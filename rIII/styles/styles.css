@@ -1,0 +1,77 @@
+/* estilo da página */
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: none ;
+}
+
+p{
+    font-weight: bold;
+}
+
+img {
+    border-radius: 20px;
+    weight: 90%
+}
+
+/* cor de sublinhação, parágrafos e marcações */
+a{
+    text-decoration: none;
+}
+h3{
+    text-decoration: underline;
+}
+mark{
+    background-color: blueviolet;
+}
+
+/* cores do botão */
+button{
+    background-color: chocolate;
+    color: brown;
+    border-radius: 100px;
+}
+
+/* cores do botão com o cursor em cima */
+button:hover{
+    background-color: crimson;
+    color: indigo;
+    cursor: pointer;
+}
+
+/* estilo do cabeçalho */
+header{
+    background-color: green;
+}
+/* centro */
+main{
+    background-color: cadetblue;
+}
+/* rodapé */
+footer{
+    background-color: darkturquoise;
+}
+
+/* ^ estilo da página */
+
+#menu{
+    background-color: burlywood;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.section-one{
+    text-align: center;
+}
